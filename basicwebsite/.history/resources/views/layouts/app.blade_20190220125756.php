@@ -13,7 +13,13 @@
             @endif
             <div class="row">
                 <div class="col-md-8 col-lg-8">
-                    @include('inc.messages')
+                    @if(count($errors) > 0)
+                        @foreach($errors->all() as $e)
+                            <div class="alert alert-danger">
+                                {{$e}}
+                            </div>
+                        @endforeach
+                    @endif
                     @yield('content')
                 </div>
                 <div class="col-md-4 col-lg-4">
