@@ -5,18 +5,15 @@
     {!! Form::open(['url' => 'contact/submit']) !!}    
         <div class="form-group">
             {{Form::label('name', 'Name')}}
-            {{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Enter name'])}}
+            {{Form::text('name', 'Enter name', ['class' => 'form-control'])}}
         </div>
         <div class="form-group">
             {{Form::label('email', 'E-Mail Address')}}
-            {{Form::text('email', '', ['class' => 'form-control', 'placeholder' => 'example@email.com'])}}
+            {{Form::text('email', "example@email.com")}}
         </div>
         <div class="form-group">
             {{Form::label('message', 'Message')}}
-            {{Form::textArea('message', '', ['class' => 'form-control', 'placeholder' => 'Enter Message'])}}
-        </div>
-        <div>
-            {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
+            {{Form::textArea('message', "Enter Message")}}
         </div>
     {!! Form::close() !!}
 @endsection
