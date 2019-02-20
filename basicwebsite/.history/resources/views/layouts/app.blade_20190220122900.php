@@ -21,7 +21,7 @@
             </div>        
         </div>        
 
-        <footer id="footer" class="text-center">
+        <footer>
             <p>Copyright 2017 &copy; Kobus</p>
         </footer>
     </body>
