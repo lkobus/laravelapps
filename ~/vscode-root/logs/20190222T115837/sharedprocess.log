@@ -1,0 +1,61 @@
+[2019-02-22 11:58:41.418] [sharedprocess] [info] main {"machineId":"9b5c67b7204652af43efef0a2ec2ff0399a6780721f03de3e930a5fdba9c754a"}
+[2019-02-22 11:58:41.500] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:41.519] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:41.523] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:41.580] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:58:41.586] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:58:41.589] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:58:42.255] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:49.334] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:49.336] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:58:49.426] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:58:49.429] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:58:51.611] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:03.190] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:03.194] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:03.196] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:03.203] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:03.261] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:59:03.266] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:59:03.269] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 11:59:11.971] [sharedprocess] [info] Installing extension: onecentlin.laravel5-snippets
+[2019-02-22 11:59:11.975] [sharedprocess] [info] Scanned user extensions: 0
+[2019-02-22 11:59:12.441] [sharedprocess] [info] Downloaded extension: onecentlin.laravel5-snippets /tmp/8809c06e-3df6-41dd-b0e8-1bb18527cb89
+[2019-02-22 11:59:12.497] [sharedprocess] [info] Extracted extension to /home/kobus/.vscode/extensions/.onecentlin.laravel5-snippets-1.5.0: onecentlin.laravel5-snippets
+[2019-02-22 11:59:12.497] [sharedprocess] [info] Renamed to /home/kobus/.vscode/extensions/onecentlin.laravel5-snippets-1.5.0
+[2019-02-22 11:59:12.498] [sharedprocess] [info] Installation completed. onecentlin.laravel5-snippets
+[2019-02-22 11:59:12.508] [sharedprocess] [info] Extensions installed successfully: onecentlin.laravel5-snippets
+[2019-02-22 11:59:14.846] [sharedprocess] [info] Installing extension: onecentlin.laravel-blade
+[2019-02-22 11:59:14.848] [sharedprocess] [info] Scanned user extensions: 1
+[2019-02-22 11:59:16.204] [sharedprocess] [info] Downloaded extension: onecentlin.laravel-blade /tmp/3854fcf3-6905-48f2-a77a-38b4dd560f51
+[2019-02-22 11:59:17.124] [sharedprocess] [info] Extracted extension to /home/kobus/.vscode/extensions/.onecentlin.laravel-blade-1.18.0: onecentlin.laravel-blade
+[2019-02-22 11:59:17.124] [sharedprocess] [info] Renamed to /home/kobus/.vscode/extensions/onecentlin.laravel-blade-1.18.0
+[2019-02-22 11:59:17.125] [sharedprocess] [info] Installation completed. onecentlin.laravel-blade
+[2019-02-22 11:59:17.142] [sharedprocess] [info] Extensions installed successfully: onecentlin.laravel-blade
+[2019-02-22 11:59:20.872] [sharedprocess] [info] Installing extension: sachittandukar.laravel-5-snippets
+[2019-02-22 11:59:20.874] [sharedprocess] [info] Scanned user extensions: 2
+[2019-02-22 11:59:21.272] [sharedprocess] [info] Downloaded extension: sachittandukar.laravel-5-snippets /tmp/bb15f909-c68b-4667-8e34-5dc1877f8f36
+[2019-02-22 11:59:21.293] [sharedprocess] [info] Extracted extension to /home/kobus/.vscode/extensions/.sachittandukar.laravel-5-snippets-2.0.1: sachittandukar.laravel-5-snippets
+[2019-02-22 11:59:21.293] [sharedprocess] [info] Renamed to /home/kobus/.vscode/extensions/sachittandukar.laravel-5-snippets-2.0.1
+[2019-02-22 11:59:21.294] [sharedprocess] [info] Installation completed. sachittandukar.laravel-5-snippets
+[2019-02-22 11:59:21.304] [sharedprocess] [info] Extensions installed successfully: sachittandukar.laravel-5-snippets
+[2019-02-22 11:59:21.432] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-22 11:59:29.436] [sharedprocess] [info] Installing extension: thanhtung.laravel-56-snippets
+[2019-02-22 11:59:29.439] [sharedprocess] [info] Scanned user extensions: 3
+[2019-02-22 11:59:30.084] [sharedprocess] [info] Downloaded extension: thanhtung.laravel-56-snippets /tmp/c491f832-44d1-4f9f-add9-32163b63b20c
+[2019-02-22 11:59:30.159] [sharedprocess] [info] Extracted extension to /home/kobus/.vscode/extensions/.thanhtung.laravel-56-snippets-2.2.3: thanhtung.laravel-56-snippets
+[2019-02-22 11:59:30.159] [sharedprocess] [info] Renamed to /home/kobus/.vscode/extensions/thanhtung.laravel-56-snippets-2.2.3
+[2019-02-22 11:59:30.160] [sharedprocess] [info] Installation completed. thanhtung.laravel-56-snippets
+[2019-02-22 11:59:30.167] [sharedprocess] [info] Extensions installed successfully: thanhtung.laravel-56-snippets
+[2019-02-22 12:03:51.628] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:08:51.653] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:13:51.665] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:18:51.680] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:23:51.695] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:28:51.707] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:33:51.719] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:37:33.266] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:37:33.268] [sharedprocess] [info] Scanned user extensions: 4
+[2019-02-22 12:37:33.341] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 12:37:33.347] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-22 12:37:35.496] [sharedprocess] [info] Scanned user extensions: 4
