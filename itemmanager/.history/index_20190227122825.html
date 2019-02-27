@@ -70,11 +70,11 @@
                 function deleteItem(id){
                     $.ajax({
                         method: 'POST',
-                        url: 'http://itemapi.kob:8080/api/items/' + id,
-                        data: {_method: 'DELETE'}
+                        url: 'http://itemapi.kob:8080/api/items',
+                        data: {_method: 'DELETE'};
                     }).done(function(item){
                         alert('item removed');
-                        location.reload();
+                        location:reload();
                     });
                 }
 

@@ -38,7 +38,7 @@
                 <label>body</label>
                 <textarea id="body" class="form-control"></textarea>
             </div>
-            <input type="submit" value="Submit" class="btn btn-primary">
+            <input type="submit" value="Submit">
           </form>
           <hr>
           <ul id="items" class="list-group"></ul>
@@ -52,57 +52,18 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 getItems();
-
-                $('#itemForm').on('submit', function(e){
-                    e.preventDefault();
-                    var text = $('#text').val();
-                    var body = $('#body').val();
-                    addItem(text, body);
-                });
-
-
-                $('body').on('click', '.delete-link', function(e){
-                    e.preventDefault();
-                    var id = $(this).data('id');
-                    deleteItem(id);                    
-                })
-
-                function deleteItem(id){
-                    $.ajax({
-                        method: 'POST',
-                        url: 'http://itemapi.kob:8080/api/items/' + id,
-                        data: {_method: 'DELETE'}
-                    }).done(function(item){
-                        alert('item removed');
-                        location.reload();
-                    });
-                }
-
-                function addItem(text, body){
-                    $.ajax({
-                        method: 'POST',
-                        url: 'http://itemapi.kob:8080/api/items',
-                        data: {text: text, body: body}
-                    }).done(function(item){
-                        alert('Item # ' + item.id + ' added');
-                        location.reload();
-                    });
-                }
-
                 function getItems(){
                     $.ajax({
                         url: 'http://itemapi.kob:8080/api/items'                        
                     }).done(function (items) {
-                        var output = '';                        
-                        $.each(items, function(key, item) {                            
+                        var output = '';
+                        $.each(items, function(key, item) {
                             output += `
-                                <li class="list-group-item">
+                                <li class="list-group-item>
                                     <strong>${item.text} : </strong>${item.body}
-                                    <a href="#" class="delete-link" data-id="${item.id}">Delete</a>
                                 </li>
                             `;                            
-                            
-                        });                        
+                        });
                         $('#items').append(output);
                     });
                 }
