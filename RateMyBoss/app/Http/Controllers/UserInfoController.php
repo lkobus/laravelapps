@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth; 
 use App\UserInfo;
 use App\User;
+use Illuminate\Support\Facades\Hash;
 
 class UserInfoController extends Controller
 {
@@ -28,11 +29,35 @@ class UserInfoController extends Controller
         if(Auth::attempt(['email' => request('email'), 'password' => request('password')])){ 
             $user = Auth::user(); 
             $success['token'] =  $user->createToken('MyApp')-> accessToken; 
+            $success['user'] = $user;
             return response()->json(['success' => $success]); 
         } 
         else{ 
             return response()->json(['error'=>'Unauthorised'], 401); 
         } 
+    }
+
+    public function register(Request $request) {
+        try{            
+            $users=  User::where('name', $request->input('name'))->get();            
+            if(empty($users)){
+                return response()->json([
+                    'error' => true,
+                    'message' => 'User already exist in database'
+                ], 409);
+            } else {
+                return User::create([
+                    'name' => $request->input(['name']),
+                    'email' => $request->input(['email']),
+                    'photo' => '/imgs/misc/usr-default.svg',
+                    'password' => Hash::make($request->input(['password'])),
+                ]);
+            }
+        } catch(Exception $ex) {
+            return $ex;
+        }
+        
+        
     }
 
     public function create(){

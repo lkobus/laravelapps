@@ -9,7 +9,6 @@
                 <h3 class="profile-username text-center">Leonardo Kobus</h3>
                 <p class="text-muted text-center">Software Engineer</p>
             </div>
-
             <form role="form">
               <div class="box-body">
                 <div class="form-group">

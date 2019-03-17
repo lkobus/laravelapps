@@ -25,16 +25,24 @@
     },
     "dependencies": {
         "admin-lte": "^2.4.9",
+        "async-lock": "^1.2.0",
         "b": "^2.0.1",
         "font-awesome": "^4.7.0",
+        "glyphicons-halflings": "^1.9.1",
         "icheck": "^1.0.2",
         "inputmask": "^4.0.6",
         "ionicons": "^4.5.5",
+        "ngrok": "^3.1.1",
         "vue-blockui": "^1.1.7",
         "vue-body-class": "^2.0.0-beta.2",
+        "vue-bootstrap-typeahead": "^0.2.6",
+        "vue-fab": "^2.3.1",
         "vue-multilanguage": "^4.0.7",
         "vue-router": "^3.0.2",
         "vue-spinner": "^1.0.3",
-        "vuex": "^3.1.0"
+        "vue-the-mask": "^0.11.1",
+        "vuejs-auto-complete": "^0.9.0",
+        "vuex": "^3.1.0",
+        "vuex-persist": "^2.0.0"
     }
 }

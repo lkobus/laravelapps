@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="/css/skin-purple.min.css">     
     <link rel="stylesheet" href="/css/skin-purple-light.min.css">     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <title>Document</title>
     
 </head>

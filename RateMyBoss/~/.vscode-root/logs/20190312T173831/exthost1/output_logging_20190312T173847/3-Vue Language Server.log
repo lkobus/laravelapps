@@ -1,0 +1,55 @@
+Vetur initialized
+[Error - 5:42:17 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 8:00:59 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 2:47:08 AM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 2:47:16 AM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 2:47:18 AM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 4:13:31 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 4:13:47 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 4:13:54 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 5:42:28 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 6:26:34 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 6:26:35 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 6:26:40 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 6:26:42 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 6:26:55 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 6:39:58 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 
+[Error - 4:56:47 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 4:56:57 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Cannot read property 'kind' of undefined
+  Code: -32603 
+[Error - 5:22:40 PM] Request textDocument/documentHighlight failed.
+  Message: Request textDocument/documentHighlight failed with message: Debug Failure. Invalid container kind.
+  Code: -32603 

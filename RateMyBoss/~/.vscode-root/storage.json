@@ -1,0 +1,13 @@
+{
+    "telemetry.machineId": "9b5c67b7204652af43efef0a2ec2ff0399a6780721f03de3e930a5fdba9c754a",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/var/www/laravelapps",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///var/www/laravelapps/contactstore",
+            "file:///var/www/laravelapps/RateMyBoss"
+        ],
+        "files2": []
+    }
+}
